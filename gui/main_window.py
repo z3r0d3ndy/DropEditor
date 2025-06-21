@@ -18,6 +18,7 @@ from .tree_view import DropTreeWidget
 from .edit_dialog import EditDropDialog
 from .loading_widget import LoadingWidget
 from .add_drop_dialog import AddDropDialog
+from core.models import NPC
 
 
 class DropEditorWindow(QMainWindow):

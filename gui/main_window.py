@@ -7,7 +7,7 @@ from PyQt6.QtWidgets import (
 from PyQt6.QtGui import QPixmap
 from PyQt6.QtCore import Qt, QTimer
 from pathlib import Path
-from typing import List
+from typing import List, Optional
 import time
 from threading import Thread
 
@@ -15,6 +15,7 @@ from core.parser import load_npcs_from_folder, get_unique_npc_types, save_npcs_t
 from core.editor import DropEditor
 from core.history import History
 from .tree_view import DropTreeWidget
+from .edit_dialog import EditDropDialog
 from .loading_widget import LoadingWidget
 from .add_drop_dialog import AddDropDialog
 
@@ -37,7 +38,7 @@ class DropEditorWindow(QMainWindow):
         # Main layout
         main_layout = QVBoxLayout()
 
-        # Header
+        # Header with image
         header = QLabel()
         if os.path.exists("resources/header.png"):
             header.setPixmap(QPixmap("resources/header.png").scaled(512, 100))
@@ -284,48 +285,11 @@ class DropEditorWindow(QMainWindow):
             self.apply_filters()
             self.btn_undo.setEnabled(True)
 
-    def save_all(self):
-        if self.last_folder:
-            self._save_files(self.npcs, Path(self.last_folder))
-
-    def save_as(self):
-        folder = QFileDialog.getExistingDirectory(self, "Select Save Folder")
-        if folder:
-            self._save_files(self.npcs, Path(folder))
-
-    def _save_files(self, npcs: List[NPC], folder: Path):
-        self.loading_widget.start()
-        self.status_label.setText("Saving files...")
-
-        # Save in background thread
-        self.save_thread = Thread(
-            target=self._save_files_thread,
-            args=(npcs, folder)
-        )
-        self.save_thread.start()
-
-        # Check for completion
-        self.save_timer = QTimer()
-        self.save_timer.timeout.connect(lambda: self._check_save_complete(self.save_thread))
-        self.save_timer.start(100)
-
-    def _save_files_thread(self, npcs: List[NPC], folder: Path):
-        save_npcs_to_folder(npcs, folder)
-
-    def _check_save_complete(self, thread):
-        if not thread.is_alive():
-            self.save_timer.stop()
-            self.loading_widget.stop()
-            self.status_label.setText("Save completed!")
-            QTimer.singleShot(2000, lambda: self.status_label.setText(
-                f"Displaying {len(self.filtered_npcs)} of {len(self.npcs)} NPCs"))
-
     def handle_item_edit(self, npc, drop_type, group, item):
-        """Обрабатывает редактирование элементов дропа по двойному клику"""
         self.history.add_state(self.npcs)
 
         if drop_type and not group and not item:
-            # Редактирование DropType
+            # Delete DropType
             reply = QMessageBox.question(
                 self, 'Delete Drop Type',
                 f"Delete all drops of type {drop_type.name} from {npc.name}?",
@@ -336,7 +300,7 @@ class DropEditorWindow(QMainWindow):
                 self.apply_filters()
 
         elif group and not item:
-            # Редактирование DropGroup
+            # Edit Group Chance
             if group.chance is not None:
                 dialog = EditDropDialog(self, "Edit Group Chance", {
                     "chance": {
@@ -357,7 +321,7 @@ class DropEditorWindow(QMainWindow):
                 QMessageBox.information(self, "Info", "This group has no chance to edit")
 
         elif group and item == "delete":
-            # Удаление группы
+            # Delete Group
             reply = QMessageBox.question(
                 self, 'Delete Group',
                 f"Delete group {group.name} from {npc.name}?",
@@ -368,7 +332,7 @@ class DropEditorWindow(QMainWindow):
                 self.apply_filters()
 
         elif item:
-            # Редактирование предмета
+            # Edit Item
             dialog = EditDropDialog(self, "Edit Drop Item", {
                 "id": {
                     "label": "Item ID:",
@@ -409,3 +373,39 @@ class DropEditorWindow(QMainWindow):
                 self.apply_filters()
 
         self.btn_undo.setEnabled(True)
+
+    def save_all(self):
+        if self.last_folder:
+            self._save_files(self.npcs, Path(self.last_folder))
+
+    def save_as(self):
+        folder = QFileDialog.getExistingDirectory(self, "Select Save Folder")
+        if folder:
+            self._save_files(self.npcs, Path(folder))
+
+    def _save_files(self, npcs: List[NPC], folder: Path):
+        self.loading_widget.start()
+        self.status_label.setText("Saving files...")
+
+        # Save in background thread
+        self.save_thread = Thread(
+            target=self._save_files_thread,
+            args=(npcs, folder)
+        )
+        self.save_thread.start()
+
+        # Check for completion
+        self.save_timer = QTimer()
+        self.save_timer.timeout.connect(lambda: self._check_save_complete(self.save_thread))
+        self.save_timer.start(100)
+
+    def _save_files_thread(self, npcs: List[NPC], folder: Path):
+        save_npcs_to_folder(npcs, folder)
+
+    def _check_save_complete(self, thread):
+        if not thread.is_alive():
+            self.save_timer.stop()
+            self.loading_widget.stop()
+            self.status_label.setText("Save completed!")
+            QTimer.singleShot(2000, lambda: self.status_label.setText(
+                f"Displaying {len(self.filtered_npcs)} of {len(self.npcs)} NPCs"))

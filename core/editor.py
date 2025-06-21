@@ -1,4 +1,4 @@
-from typing import List, Optional, Dict, Tuple
+from typing import List, Dict, Optional, Tuple
 from .models import NPC, DropType, DropGroup, DropItem
 
 

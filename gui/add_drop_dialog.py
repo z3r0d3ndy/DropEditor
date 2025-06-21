@@ -18,8 +18,8 @@ class AddDropDialog(QDialog):
     def init_ui(self):
         layout = QVBoxLayout()
 
-        # NPC Selection
-        npc_group = QGroupBox("NPC Selection")
+        # NPC Selection Group
+        self.npc_group = QGroupBox("NPC Selection")
         npc_layout = QVBoxLayout()
 
         # NPC IDs
@@ -57,11 +57,11 @@ class AddDropDialog(QDialog):
         type_layout.addWidget(self.type_combo)
 
         npc_layout.addLayout(type_layout)
-        npc_group.setLayout(npc_layout)
-        layout.addWidget(npc_group)
+        self.npc_group.setLayout(npc_layout)
+        layout.addWidget(self.npc_group)
 
-        # Drop Settings
-        drop_group = QGroupBox("Drop Settings")
+        # Drop Settings Group
+        self.drop_group = QGroupBox("Drop Settings")
         drop_layout = QVBoxLayout()
 
         # Drop Type
@@ -84,7 +84,7 @@ class AddDropDialog(QDialog):
         drop_layout.addLayout(group_layout)
 
         # Group Chance
-        self.group_chance_check = QCheckBox("Has Group Chance")
+        self.group_chance_check = QCheckBox("Has Group Chance (for RATED_GROUPS)")
         self.group_chance_check.setChecked(True)
         drop_layout.addWidget(self.group_chance_check)
 
@@ -100,10 +100,13 @@ class AddDropDialog(QDialog):
         chance_layout.addWidget(self.group_chance_edit)
         drop_layout.addLayout(chance_layout)
 
-        drop_group.setLayout(drop_layout)
-        layout.addWidget(drop_group)
+        self.drop_group.setLayout(drop_layout)
+        layout.addWidget(self.drop_group)
 
-        # Items Table
+        # Items Group
+        self.items_group = QGroupBox("Items")
+        items_layout = QVBoxLayout()
+
         self.items_table = QTableWidget()
         self.items_table.setColumnCount(4)
         self.items_table.setHorizontalHeaderLabels(["Item ID", "Min", "Max", "Chance"])
@@ -131,11 +134,12 @@ class AddDropDialog(QDialog):
         del_row_btn.clicked.connect(self.del_item_row)
         table_buttons.addWidget(del_row_btn)
 
-        layout.addWidget(QLabel("Items:"))
-        layout.addWidget(self.items_table)
-        layout.addLayout(table_buttons)
+        items_layout.addWidget(self.items_table)
+        items_layout.addLayout(table_buttons)
+        self.items_group.setLayout(items_layout)
+        layout.addWidget(self.items_group)
 
-        # Buttons
+        # Dialog buttons
         buttons = QDialogButtonBox(
             QDialogButtonBox.StandardButton.Ok | QDialogButtonBox.StandardButton.Cancel)
         buttons.accepted.connect(self.validate)

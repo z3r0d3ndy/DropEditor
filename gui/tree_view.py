@@ -1,8 +1,6 @@
-from PyQt6.QtWidgets import (
-    QTreeWidget, QTreeWidgetItem, QMenu
-)
+from PyQt6.QtWidgets import QTreeWidget, QTreeWidgetItem, QMenu
 from PyQt6.QtCore import Qt, pyqtSignal
-from core.models import NPC
+from core.models import NPC, DropType, DropGroup, DropItem
 
 
 class DropTreeWidget(QTreeWidget):
@@ -19,7 +17,6 @@ class DropTreeWidget(QTreeWidget):
 
     def display_npcs(self, npcs: list[NPC]):
         self.clear()
-        self.npcs = npcs
 
         for npc in npcs:
             npc_item = QTreeWidgetItem(self)
@@ -53,6 +50,7 @@ class DropTreeWidget(QTreeWidget):
                         item_item.setText(3, item_text)
                         item_item.setData(0, Qt.ItemDataRole.UserRole, (npc, drop_type, group, item))
 
+        self.expandAll()
         self.resizeColumnToContents(0)
 
     def show_context_menu(self, pos):
@@ -68,14 +66,12 @@ class DropTreeWidget(QTreeWidget):
         menu = QMenu()
 
         if drop_type and not group and not drop_item:
-            # Drop Type level
             menu.addAction("Delete Drop Type", lambda: self.delete_drop_type(npc, drop_type))
         elif group and not drop_item:
-            # Group level
-            menu.addAction("Edit Group Chance", lambda: self.edit_group_chance(npc, drop_type, group))
+            if group.chance is not None:
+                menu.addAction("Edit Group Chance", lambda: self.edit_group_chance(npc, drop_type, group))
             menu.addAction("Delete Group", lambda: self.delete_group(npc, drop_type, group))
         elif drop_item:
-            # Item level
             menu.addAction("Edit Item", lambda: self.edit_item(npc, drop_type, group, drop_item))
 
         if menu.actions():

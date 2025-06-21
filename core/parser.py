@@ -1,6 +1,6 @@
 from lxml import etree
 from pathlib import Path
-from typing import List, Optional, Tuple
+from typing import List
 from .models import NPC, DropType, DropGroup, DropItem
 
 
@@ -13,14 +13,8 @@ def parse_npc(xml_path: Path) -> List[NPC]:
             try:
                 npc_id = int(npc_elem.get("id"))
                 name = npc_elem.get("name", "Unknown")
-                level = 0
-                npc_type = "Monster"
-
-                for set_elem in npc_elem.xpath(".//set"):
-                    if set_elem.get("name") == "level":
-                        level = int(set_elem.get("value", 0))
-                    elif set_elem.get("name") == "type":
-                        npc_type = set_elem.get("value", "Monster")
+                level = int(npc_elem.xpath(".//set[@name='level']/@value")[0])
+                npc_type = npc_elem.xpath(".//set[@name='type']/@value")[0]
 
                 drop_types = []
                 for rewardlist in npc_elem.xpath(".//rewardlist"):
@@ -48,22 +42,6 @@ def parse_npc(xml_path: Path) -> List[NPC]:
                                 chance=group_chance,
                                 items=items
                             ))
-
-                    direct_items = []
-                    for reward in rewardlist.xpath(".//reward[not(parent::group)]"):
-                        direct_items.append(DropItem(
-                            id=int(reward.get("item_id")),
-                            min_count=int(reward.get("min", 1)),
-                            max_count=int(reward.get("max", 1)),
-                            chance=float(reward.get("chance", 0))
-                        ))
-
-                    if direct_items:
-                        groups.append(DropGroup(
-                            name="Direct Drops",
-                            chance=None,
-                            items=direct_items
-                        ))
 
                     if groups:
                         drop_types.append(DropType(

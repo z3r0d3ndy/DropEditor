@@ -1,0 +1,894 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "npc.dtd">
+<list>
+	<npc id="22746" name="Bgurent" title="">
+		<set name="aggroRange" value="400"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseCritRate" value="4"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseHpMax" value="55817"/>
+		<set name="baseHpRate" value="2"/>
+		<set name="baseHpReg" value="187"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMAtk" value="8707"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="baseMDef" value="635"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseMpMax" value="1846"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="basePAtk" value="12008"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="basePDef" value="578"/>
+		<set name="baseRunSpd" value="180"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseWalkSpd" value="56"/>
+		<set name="collision_height" value="30.5"/>
+		<set name="collision_radius" value="23.0"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="579304"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="58205"/>
+		<set name="shots" value="NONE"/>
+		<set name="texture" value=""/>
+		<set name="type" value="Monster"/>
+		<ai_params>
+			<set name="canSeeInSilentMove" value="true"/>
+		</ai_params>
+		<skills>
+			<skill id="4416" level="3"/>	<!--Beasts-->
+		</skills>
+		<attributes>
+			<defence attribute="fire" value="0"/>
+			<defence attribute="water" value="0"/>
+			<defence attribute="wind" value="0"/>
+			<defence attribute="earth" value="0"/>
+			<defence attribute="holy" value="0"/>
+			<defence attribute="unholy" value="0"/>
+		</attributes>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="70.0">
+				<reward item_id="57" min="38982" max="80346" chance="100.0000"/>	<!--Adena-->
+			</group>
+			<group chance="41.5062">
+				<reward item_id="4037" min="14" max="42" chance="8.1526"/>	<!--Cokes-->
+			</group>
+		</rewardlist>
+		<rewardlist type="SWEEP">
+			<reward item_id="4037" min="1" max="1" chance="22.2296"/>	<!--Sealed Vesper Helmet Piece-->
+		</rewardlist>
+	</npc>
+	<npc id="22747" name="Brakian" title="">
+		<set name="aggroRange" value="400"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseCritRate" value="4"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseHpMax" value="55817"/>
+		<set name="baseHpRate" value="2"/>
+		<set name="baseHpReg" value="187"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMAtk" value="8707"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="baseMDef" value="635"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseMpMax" value="1846"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="basePAtk" value="12008"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="basePDef" value="578"/>
+		<set name="baseRunSpd" value="180"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseWalkSpd" value="38"/>
+		<set name="collision_height" value="30.0"/>
+		<set name="collision_radius" value="28.0"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="579304"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="58205"/>
+		<set name="shots" value="NONE"/>
+		<set name="texture" value=""/>
+		<set name="type" value="Monster"/>
+		<ai_params>
+			<set name="canSeeInSilentMove" value="true"/>
+		</ai_params>
+		<skills>
+			<skill id="4416" level="3"/>	<!--Beasts-->
+		</skills>
+		<attributes>
+			<defence attribute="fire" value="0"/>
+			<defence attribute="water" value="0"/>
+			<defence attribute="wind" value="0"/>
+			<defence attribute="earth" value="0"/>
+			<defence attribute="holy" value="0"/>
+			<defence attribute="unholy" value="0"/>
+		</attributes>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="70.0">
+				<reward item_id="57" min="38982" max="80346" chance="100.0000"/>	<!--Adena-->
+			</group>
+			<group chance="41.5062">
+				<reward item_id="4037" min="14" max="42" chance="8.1526"/>	<!--Cokes-->
+			</group>
+		</rewardlist>
+		<rewardlist type="SWEEP">
+			<reward item_id="4037" min="1" max="1" chance="22.2296"/>	<!--Sealed Vesper Helmet Piece-->
+		</rewardlist>
+	</npc>
+	<npc id="22748" name="Groikan" title="">
+		<set name="aggroRange" value="400"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseCritRate" value="4"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseHpMax" value="55817"/>
+		<set name="baseHpRate" value="2"/>
+		<set name="baseHpReg" value="187"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMAtk" value="8707"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="baseMDef" value="635"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseMpMax" value="1846"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="basePAtk" value="12008"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="basePDef" value="578"/>
+		<set name="baseRunSpd" value="154"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseWalkSpd" value="56"/>
+		<set name="collision_height" value="31.0"/>
+		<set name="collision_radius" value="32.0"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="579450"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="58220"/>
+		<set name="shots" value="NONE"/>
+		<set name="texture" value=""/>
+		<set name="type" value="Monster"/>
+		<ai_params>
+			<set name="canSeeInSilentMove" value="true"/>
+		</ai_params>
+		<skills>
+			<skill id="4416" level="3"/>	<!--Beasts-->
+		</skills>
+		<attributes>
+			<defence attribute="fire" value="0"/>
+			<defence attribute="water" value="0"/>
+			<defence attribute="wind" value="0"/>
+			<defence attribute="earth" value="0"/>
+			<defence attribute="holy" value="0"/>
+			<defence attribute="unholy" value="0"/>
+		</attributes>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="70.0">
+				<reward item_id="57" min="38982" max="80346" chance="100.0000"/>	<!--Adena-->
+			</group>
+			<group chance="41.5062">
+				<reward item_id="4037" min="14" max="42" chance="8.1526"/>	<!--Cokes-->
+			</group>
+		</rewardlist>
+		<rewardlist type="SWEEP">
+			<reward item_id="4037" min="1" max="1" chance="22.2296"/>	<!--Sealed Vesper Helmet Piece-->
+		</rewardlist>
+	</npc>
+	<npc id="22749" name="Treykan" title="">
+		<set name="aggroRange" value="400"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseCritRate" value="4"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseHpMax" value="55817"/>
+		<set name="baseHpRate" value="2"/>
+		<set name="baseHpReg" value="187"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMAtk" value="8707"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="baseMDef" value="635"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseMpMax" value="1846"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="basePAtk" value="12008"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="basePDef" value="578"/>
+		<set name="baseRunSpd" value="180"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseWalkSpd" value="88"/>
+		<set name="collision_height" value="27.0"/>
+		<set name="collision_radius" value="25.0"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="585940"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="58904"/>
+		<set name="shots" value="NONE"/>
+		<set name="texture" value=""/>
+		<set name="type" value="Monster"/>
+		<ai_params>
+			<set name="canSeeInSilentMove" value="true"/>
+		</ai_params>
+		<skills>
+			<skill id="4416" level="3"/>	<!--Beasts-->
+		</skills>
+		<attributes>
+			<defence attribute="fire" value="0"/>
+			<defence attribute="water" value="0"/>
+			<defence attribute="wind" value="0"/>
+			<defence attribute="earth" value="0"/>
+			<defence attribute="holy" value="0"/>
+			<defence attribute="unholy" value="0"/>
+		</attributes>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="70.0">
+				<reward item_id="57" min="38982" max="80346" chance="100.0000"/>	<!--Adena-->
+			</group>
+			<group chance="41.5062">
+				<reward item_id="4037" min="14" max="42" chance="8.1526"/>	<!--Cokes-->
+			</group>
+		</rewardlist>
+		<rewardlist type="SWEEP">
+			<reward item_id="4037" min="1" max="1" chance="22.2296"/>	<!--Sealed Vesper Helmet Piece-->
+		</rewardlist>
+	</npc>
+	<npc id="22750" name="Elite Bgurent" title="">
+		<set name="aggroRange" value="400"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseCritRate" value="4"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseHpMax" value="111546"/>
+		<set name="baseHpRate" value="2"/>
+		<set name="baseHpReg" value="187"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMAtk" value="8513"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="baseMDef" value="635"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseMpMax" value="1846"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="basePAtk" value="11740"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="basePDef" value="578"/>
+		<set name="baseRunSpd" value="180"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseWalkSpd" value="56"/>
+		<set name="collision_height" value="40.5"/>
+		<set name="collision_radius" value="23.0"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="1209443"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="121549"/>
+		<set name="shots" value="NONE"/>
+		<set name="type" value="Monster"/>
+		<faction name="bestacon_elite_clan" range="300"/>
+		<minions>
+			<minion npc_id="22746" count="1"/>
+			<minion npc_id="22747" count="1"/>
+			<minion npc_id="22748" count="1"/>
+			<minion npc_id="22749" count="1"/>
+		</minions>
+		<ai_params>
+			<set name="canSeeInSilentMove" value="true"/>
+		</ai_params>
+		<skills>
+			<skill id="4416" level="3"/>	<!--Beasts-->
+		</skills>
+		<attributes>
+			<defence attribute="fire" value="0"/>
+			<defence attribute="water" value="0"/>
+			<defence attribute="wind" value="0"/>
+			<defence attribute="earth" value="0"/>
+			<defence attribute="holy" value="0"/>
+			<defence attribute="unholy" value="0"/>
+		</attributes>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="70.0">
+				<reward item_id="57" min="38982" max="80346" chance="100.0000"/>	<!--Adena-->
+			</group>
+			<group chance="41.5062">
+				<reward item_id="4037" min="14" max="42" chance="8.1526"/>	<!--Cokes-->
+			</group>
+		</rewardlist>
+		<rewardlist type="SWEEP">
+			<reward item_id="4037" min="1" max="1" chance="22.2296"/>	<!--Sealed Vesper Helmet Piece-->
+		</rewardlist>
+	</npc>
+	<npc id="22751" name="Elite Brakian" title="">
+		<set name="aggroRange" value="400"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseCritRate" value="4"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseHpMax" value="111546"/>
+		<set name="baseHpRate" value="2"/>
+		<set name="baseHpReg" value="187"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMAtk" value="8513"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="baseMDef" value="635"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseMpMax" value="1846"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="basePAtk" value="11740"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="basePDef" value="578"/>
+		<set name="baseRunSpd" value="90"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseWalkSpd" value="38"/>
+		<set name="collision_height" value="41.5"/>
+		<set name="collision_radius" value="35.0"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="1209443"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="121549"/>
+		<set name="shots" value="NONE"/>
+		<set name="type" value="Monster"/>
+		<faction name="bestacon_elite_clan" range="300"/>
+		<minions>
+			<minion npc_id="22746" count="1"/>
+			<minion npc_id="22747" count="1"/>
+			<minion npc_id="22748" count="1"/>
+			<minion npc_id="22749" count="1"/>
+		</minions>
+		<ai_params>
+			<set name="canSeeInSilentMove" value="true"/>
+		</ai_params>
+		<skills>
+			<skill id="4416" level="3"/>	<!--Beasts-->
+		</skills>
+		<attributes>
+			<defence attribute="fire" value="0"/>
+			<defence attribute="water" value="0"/>
+			<defence attribute="wind" value="0"/>
+			<defence attribute="earth" value="0"/>
+			<defence attribute="holy" value="0"/>
+			<defence attribute="unholy" value="0"/>
+		</attributes>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="70.0">
+				<reward item_id="57" min="38982" max="80346" chance="100.0000"/>	<!--Adena-->
+			</group>
+			<group chance="41.5062">
+				<reward item_id="4037" min="14" max="42" chance="8.1526"/>	<!--Cokes-->
+			</group>
+		</rewardlist>
+		<rewardlist type="SWEEP">
+			<reward item_id="4037" min="1" max="1" chance="22.2296"/>	<!--Sealed Vesper Helmet Piece-->
+		</rewardlist>
+	</npc>
+	<npc id="22752" name="Elite Groikan" title="">
+		<set name="aggroRange" value="400"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseCritRate" value="4"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseHpMax" value="111546"/>
+		<set name="baseHpRate" value="2"/>
+		<set name="baseHpReg" value="187"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMAtk" value="8513"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="baseMDef" value="635"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseMpMax" value="1846"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="basePAtk" value="11740"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="basePDef" value="578"/>
+		<set name="baseRunSpd" value="154"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseWalkSpd" value="56"/>
+		<set name="collision_height" value="47.0"/>
+		<set name="collision_radius" value="40.0"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="1206702"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="121260"/>
+		<set name="shots" value="NONE"/>
+		<set name="type" value="Monster"/>
+		<faction name="bestacon_elite_clan" range="300"/>
+		<minions>
+			<minion npc_id="22746" count="1"/>
+			<minion npc_id="22747" count="1"/>
+			<minion npc_id="22748" count="1"/>
+			<minion npc_id="22749" count="1"/>
+		</minions>
+		<ai_params>
+			<set name="canSeeInSilentMove" value="true"/>
+		</ai_params>
+		<skills>
+			<skill id="4416" level="3"/>	<!--Beasts-->
+		</skills>
+		<attributes>
+			<defence attribute="fire" value="0"/>
+			<defence attribute="water" value="0"/>
+			<defence attribute="wind" value="0"/>
+			<defence attribute="earth" value="0"/>
+			<defence attribute="holy" value="0"/>
+			<defence attribute="unholy" value="0"/>
+		</attributes>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="70.0">
+				<reward item_id="57" min="38982" max="80346" chance="100.0000"/>	<!--Adena-->
+			</group>
+			<group chance="41.5062">
+				<reward item_id="4037" min="14" max="42" chance="8.1526"/>	<!--Cokes-->
+			</group>
+		</rewardlist>
+		<rewardlist type="SWEEP">
+			<reward item_id="4037" min="1" max="1" chance="22.2296"/>	<!--Sealed Vesper Helmet Piece-->
+		</rewardlist>
+	</npc>
+	<npc id="22753" name="Elite Treykan" title="">
+		<set name="aggroRange" value="400"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseCritRate" value="4"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseHpMax" value="111546"/>
+		<set name="baseHpRate" value="2"/>
+		<set name="baseHpReg" value="187"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMAtk" value="8513"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="baseMDef" value="635"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseMpMax" value="1846"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="basePAtk" value="11740"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="basePDef" value="578"/>
+		<set name="baseRunSpd" value="180"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseWalkSpd" value="88"/>
+		<set name="collision_height" value="42.0"/>
+		<set name="collision_radius" value="30.0"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="1209443"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="121549"/>
+		<set name="shots" value="NONE"/>
+		<set name="type" value="Monster"/>
+		<faction name="bestacon_elite_clan" range="300"/>
+		<minions>
+			<minion npc_id="22746" count="1"/>
+			<minion npc_id="22747" count="1"/>
+			<minion npc_id="22748" count="1"/>
+			<minion npc_id="22749" count="1"/>
+		</minions>
+		<ai_params>
+			<set name="canSeeInSilentMove" value="true"/>
+		</ai_params>
+		<skills>
+			<skill id="4416" level="3"/>	<!--Beasts-->
+		</skills>
+		<attributes>
+			<defence attribute="fire" value="0"/>
+			<defence attribute="water" value="0"/>
+			<defence attribute="wind" value="0"/>
+			<defence attribute="earth" value="0"/>
+			<defence attribute="holy" value="0"/>
+			<defence attribute="unholy" value="0"/>
+		</attributes>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="70.0">
+				<reward item_id="57" min="38982" max="80346" chance="100.0000"/>	<!--Adena-->
+			</group>
+			<group chance="41.5062">
+				<reward item_id="4037" min="14" max="42" chance="8.1526"/>	<!--Cokes-->
+			</group>
+		</rewardlist>
+		<rewardlist type="SWEEP">
+			<reward item_id="4037" min="1" max="1" chance="22.2296"/>	<!--Sealed Vesper Helmet Piece-->
+		</rewardlist>
+	</npc>
+	<npc id="22754" name="Turtlelian" title="">
+		<set name="aggroRange" value="400"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseCritRate" value="4"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseHpMax" value="55817"/>
+		<set name="baseHpRate" value="2"/>
+		<set name="baseHpReg" value="187"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMAtk" value="8707"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="baseMDef" value="635"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseMpMax" value="1846"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="basePAtk" value="12008"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="basePDef" value="578"/>
+		<set name="baseRunSpd" value="93"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseWalkSpd" value="29"/>
+		<set name="collision_height" value="28.5"/>
+		<set name="collision_radius" value="28.0"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="579304"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="58205"/>
+		<set name="shots" value="NONE"/>
+		<set name="type" value="Monster"/>
+		<ai_params>
+			<set name="canSeeInSilentMove" value="true"/>
+		</ai_params>
+		<skills>
+			<skill id="4416" level="3"/>	<!--Beasts-->
+		</skills>
+		<attributes>
+			<defence attribute="fire" value="0"/>
+			<defence attribute="water" value="0"/>
+			<defence attribute="wind" value="0"/>
+			<defence attribute="earth" value="0"/>
+			<defence attribute="holy" value="0"/>
+			<defence attribute="unholy" value="0"/>
+		</attributes>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="70.0">
+				<reward item_id="57" min="38982" max="80346" chance="100.0000"/>	<!--Adena-->
+			</group>
+			<group chance="41.5062">
+				<reward item_id="4037" min="14" max="42" chance="8.1526"/>	<!--Cokes-->
+			</group>
+		</rewardlist>
+		<rewardlist type="SWEEP">
+			<reward item_id="4037" min="1" max="1" chance="22.2296"/>	<!--Sealed Vesper Helmet Piece-->
+		</rewardlist>
+	</npc>
+	<npc id="22755" name="Krajian" title="">
+		<set name="aggroRange" value="400"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseCritRate" value="4"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseHpMax" value="55817"/>
+		<set name="baseHpRate" value="2"/>
+		<set name="baseHpReg" value="187"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMAtk" value="8707"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="baseMDef" value="635"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseMpMax" value="1846"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="basePAtk" value="12008"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="basePDef" value="578"/>
+		<set name="baseRunSpd" value="180"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseWalkSpd" value="42"/>
+		<set name="collision_height" value="36.0"/>
+		<set name="collision_radius" value="26.0"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="579304"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="58205"/>
+		<set name="shots" value="NONE"/>
+		<set name="type" value="Monster"/>
+		<ai_params>
+			<set name="canSeeInSilentMove" value="true"/>
+		</ai_params>
+		<skills>
+			<skill id="4416" level="3"/>	<!--Beasts-->
+		</skills>
+		<attributes>
+			<defence attribute="fire" value="0"/>
+			<defence attribute="water" value="0"/>
+			<defence attribute="wind" value="0"/>
+			<defence attribute="earth" value="0"/>
+			<defence attribute="holy" value="0"/>
+			<defence attribute="unholy" value="0"/>
+		</attributes>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="70.0">
+				<reward item_id="57" min="38982" max="80346" chance="100.0000"/>	<!--Adena-->
+			</group>
+			<group chance="41.5062">
+				<reward item_id="4037" min="14" max="42" chance="8.1526"/>	<!--Cokes-->
+			</group>
+		</rewardlist>
+		<rewardlist type="SWEEP">
+			<reward item_id="4037" min="1" max="1" chance="22.2296"/>	<!--Sealed Vesper Helmet Piece-->
+		</rewardlist>
+	</npc>
+	<npc id="22756" name="Tardyon" title="">
+		<set name="aggroRange" value="400"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseCritRate" value="4"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseHpMax" value="55817"/>
+		<set name="baseHpRate" value="2"/>
+		<set name="baseHpReg" value="187"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMAtk" value="8707"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="baseMDef" value="635"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseMpMax" value="1846"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="basePAtk" value="12008"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="basePDef" value="578"/>
+		<set name="baseRunSpd" value="180"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseWalkSpd" value="25"/>
+		<set name="collision_height" value="35.0"/>
+		<set name="collision_radius" value="30.0"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="579450"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="58220"/>
+		<set name="shots" value="NONE"/>
+		<set name="type" value="Monster"/>
+		<ai_params>
+			<set name="canSeeInSilentMove" value="true"/>
+		</ai_params>
+		<skills>
+			<skill id="4416" level="3"/>	<!--Beasts-->
+		</skills>
+		<attributes>
+			<defence attribute="fire" value="0"/>
+			<defence attribute="water" value="0"/>
+			<defence attribute="wind" value="0"/>
+			<defence attribute="earth" value="0"/>
+			<defence attribute="holy" value="0"/>
+			<defence attribute="unholy" value="0"/>
+		</attributes>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="70.0">
+				<reward item_id="57" min="38982" max="80346" chance="100.0000"/>	<!--Adena-->
+			</group>
+			<group chance="41.5062">
+				<reward item_id="4037" min="14" max="42" chance="8.1526"/>	<!--Cokes-->
+			</group>
+		</rewardlist>
+		<rewardlist type="SWEEP">
+			<reward item_id="4037" min="1" max="1" chance="22.2296"/>	<!--Sealed Vesper Helmet Piece-->
+		</rewardlist>
+	</npc>
+	<npc id="22757" name="Elite Turtlelian" title="">
+		<set name="aggroRange" value="400"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseCritRate" value="4"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseHpMax" value="111546"/>
+		<set name="baseHpRate" value="2"/>
+		<set name="baseHpReg" value="187"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMAtk" value="8513"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="baseMDef" value="635"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseMpMax" value="1846"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="basePAtk" value="11740"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="basePDef" value="578"/>
+		<set name="baseRunSpd" value="93"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseWalkSpd" value="29"/>
+		<set name="collision_height" value="42.0"/>
+		<set name="collision_radius" value="38.0"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="1209443"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="121549"/>
+		<set name="shots" value="NONE"/>
+		<set name="type" value="Monster"/>
+		<faction name="raptilicon_elite_clan" range="300"/>
+		<minions>
+			<minion npc_id="22754" count="1"/>	<!--Turtlelian-->
+			<minion npc_id="22755" count="1"/>	<!--Krajian-->
+			<minion npc_id="22756" count="1"/>	<!--Tardyon-->
+		</minions>
+		<ai_params>
+			<set name="canSeeInSilentMove" value="true"/>
+		</ai_params>
+		<skills>
+			<skill id="4416" level="3"/>	<!--Beasts-->
+		</skills>
+		<attributes>
+			<defence attribute="fire" value="0"/>
+			<defence attribute="water" value="0"/>
+			<defence attribute="wind" value="0"/>
+			<defence attribute="earth" value="0"/>
+			<defence attribute="holy" value="0"/>
+			<defence attribute="unholy" value="0"/>
+		</attributes>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="70.0">
+				<reward item_id="57" min="38982" max="80346" chance="100.0000"/>	<!--Adena-->
+			</group>
+			<group chance="41.5062">
+				<reward item_id="4037" min="14" max="42" chance="8.1526"/>	<!--Cokes-->
+			</group>
+		</rewardlist>
+		<rewardlist type="SWEEP">
+			<reward item_id="4037" min="1" max="1" chance="22.2296"/>	<!--Sealed Vesper Helmet Piece-->
+		</rewardlist>
+	</npc>
+	<npc id="22758" name="Elite Krajian" title="">
+		<set name="aggroRange" value="400"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseCritRate" value="4"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseHpMax" value="111546"/>
+		<set name="baseHpRate" value="2"/>
+		<set name="baseHpReg" value="187"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMAtk" value="8513"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="baseMDef" value="635"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseMpMax" value="1846"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="basePAtk" value="11740"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="basePDef" value="578"/>
+		<set name="baseRunSpd" value="180"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseWalkSpd" value="42"/>
+		<set name="collision_height" value="36.0"/>
+		<set name="collision_radius" value="26.0"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="1206702"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="121260"/>
+		<set name="shots" value="NONE"/>
+		<set name="type" value="Monster"/>
+		<faction name="raptilicon_elite_clan" range="300"/>
+		<ai_params>
+			<set name="canSeeInSilentMove" value="true"/>
+		</ai_params>
+		<minions>
+			<minion npc_id="22754" count="1"/>	<!--Turtlelian-->
+			<minion npc_id="22755" count="1"/>	<!--Krajian-->
+			<minion npc_id="22756" count="1"/>	<!--Tardyon-->
+		</minions>
+		<skills>
+			<skill id="4416" level="3"/>	<!--Beasts-->
+		</skills>
+		<attributes>
+			<defence attribute="fire" value="0"/>
+			<defence attribute="water" value="0"/>
+			<defence attribute="wind" value="0"/>
+			<defence attribute="earth" value="0"/>
+			<defence attribute="holy" value="0"/>
+			<defence attribute="unholy" value="0"/>
+		</attributes>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="70.0">
+				<reward item_id="57" min="38982" max="80346" chance="100.0000"/>	<!--Adena-->
+			</group>
+			<group chance="41.5062">
+				<reward item_id="4037" min="14" max="42" chance="8.1526"/>	<!--Cokes-->
+			</group>
+		</rewardlist>
+		<rewardlist type="SWEEP">
+			<reward item_id="4037" min="1" max="1" chance="22.2296"/>	<!--Sealed Vesper Helmet Piece-->
+		</rewardlist>
+	</npc>
+	<npc id="22759" name="Elite Tardyon" title="">
+		<set name="aggroRange" value="400"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseCritRate" value="4"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseHpMax" value="111546"/>
+		<set name="baseHpRate" value="2"/>
+		<set name="baseHpReg" value="187"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMAtk" value="8513"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="baseMDef" value="635"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseMpMax" value="1846"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="basePAtk" value="11740"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="basePDef" value="578"/>
+		<set name="baseRunSpd" value="180"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseWalkSpd" value="25"/>
+		<set name="collision_height" value="35.0"/>
+		<set name="collision_radius" value="30.0"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="1209443"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="121549"/>
+		<set name="shots" value="NONE"/>
+		<set name="type" value="Monster"/>
+		<faction name="raptilicon_elite_clan" range="300"/>
+		<ai_params>
+			<set name="canSeeInSilentMove" value="true"/>
+		</ai_params>
+		<minions>
+			<minion npc_id="22754" count="1"/>	<!--Turtlelian-->
+			<minion npc_id="22755" count="1"/>	<!--Krajian-->
+			<minion npc_id="22756" count="1"/>	<!--Tardyon-->
+		</minions>
+		<skills>
+			<skill id="4416" level="3"/>	<!--Beasts-->
+		</skills>
+		<attributes>
+			<defence attribute="fire" value="0"/>
+			<defence attribute="water" value="0"/>
+			<defence attribute="wind" value="0"/>
+			<defence attribute="earth" value="0"/>
+			<defence attribute="holy" value="0"/>
+			<defence attribute="unholy" value="0"/>
+		</attributes>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="70.0">
+				<reward item_id="57" min="38982" max="80346" chance="100.0000"/>	<!--Adena-->
+			</group>
+			<group chance="41.5062">
+				<reward item_id="4037" min="14" max="42" chance="8.1526"/>	<!--Cokes-->
+			</group>
+		</rewardlist>
+		<rewardlist type="SWEEP">
+			<reward item_id="4037" min="1" max="1" chance="22.2296"/>	<!--Sealed Vesper Helmet Piece-->
+		</rewardlist>
+	</npc>
+</list>

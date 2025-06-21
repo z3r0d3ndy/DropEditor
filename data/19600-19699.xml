@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "npc.dtd">
+
+<list>
+  <npc id="19269" name="Ward" title="">
+    <set name="aggroRange" value="0"/>
+    <set name="ai_type" value="CharacterAI"/>
+    <set name="baseAtkRange" value="40"/>
+    <set name="baseCON" value="43"/>
+    <set name="baseCritRate" value="40"/>
+    <set name="baseDEX" value="30"/>
+    <set name="baseHpMax" value="2974.357"/>
+    <set name="baseHpRate" value="10"/>
+    <set name="baseHpReg" value="8.5"/>
+    <set name="baseINT" value="21"/>
+    <set name="baseMAtk" value="1113"/>
+    <set name="baseMAtkSpd" value="333"/>
+    <set name="baseMDef" value="451"/>
+    <set name="baseMEN" value="20"/>
+    <set name="baseMpMax" value="1607.4"/>
+    <set name="baseMpReg" value="3"/>
+    <set name="basePAtk" value="1770"/>
+    <set name="basePAtkSpd" value="253"/>
+    <set name="basePDef" value="556"/>
+    <set name="baseRunSpd" value="120"/>
+    <set name="baseSTR" value="40"/>
+    <set name="baseShldDef" value="0"/>
+    <set name="baseShldRate" value="0"/>
+    <set name="baseWIT" value="20"/>
+    <set name="baseWalkSpd" value="50"/>
+    <set name="collision_height" value="15.0"/>
+    <set name="collision_radius" value="120.0"/>
+    <set name="level" value="78"/>
+    <set name="rewardExp" value="0"/>
+    <set name="rewardRp" value="0"/>
+    <set name="rewardSp" value="0"/>
+    <set name="shots" value="NONE"/>
+    <set name="texture" value=""/>
+    <set name="type" value="Npc"/>
+    <ai_params>
+      <set name="noChatWindow" value="true"/>
+      <set name="noRandomWalk" value="true"/>
+      <set name="noRandomAnimation" value="true"/>
+    </ai_params>
+    <skills>
+      <skill id="4416" level="19"/>
+      <!--Others-->
+    </skills>
+    <attributes>
+      <defence attribute="fire" value="0"/>
+      <defence attribute="water" value="0"/>
+      <defence attribute="wind" value="0"/>
+      <defence attribute="earth" value="0"/>
+      <defence attribute="holy" value="0"/>
+      <defence attribute="unholy" value="0"/>
+    </attributes>
+  </npc>
+  <npc id="19484" name="Ward" title="">
+    <set name="aggroRange" value="0"/>
+    <set name="ai_type" value="CharacterAI"/>
+    <set name="baseAtkRange" value="40"/>
+    <set name="baseCON" value="43"/>
+    <set name="baseCritRate" value="40"/>
+    <set name="baseDEX" value="30"/>
+    <set name="baseHpMax" value="2974.357"/>
+    <set name="baseHpRate" value="10"/>
+    <set name="baseHpReg" value="8.5"/>
+    <set name="baseINT" value="21"/>
+    <set name="baseMAtk" value="1113"/>
+    <set name="baseMAtkSpd" value="333"/>
+    <set name="baseMDef" value="451"/>
+    <set name="baseMEN" value="20"/>
+    <set name="baseMpMax" value="1607.4"/>
+    <set name="baseMpReg" value="3"/>
+    <set name="basePAtk" value="1770"/>
+    <set name="basePAtkSpd" value="253"/>
+    <set name="basePDef" value="556"/>
+    <set name="baseRunSpd" value="120"/>
+    <set name="baseSTR" value="40"/>
+    <set name="baseShldDef" value="0"/>
+    <set name="baseShldRate" value="0"/>
+    <set name="baseWIT" value="20"/>
+    <set name="baseWalkSpd" value="50"/>
+    <set name="collision_height" value="15.0"/>
+    <set name="collision_radius" value="120.0"/>
+    <set name="level" value="78"/>
+    <set name="rewardExp" value="0"/>
+    <set name="rewardRp" value="0"/>
+    <set name="rewardSp" value="0"/>
+    <set name="shots" value="NONE"/>
+    <set name="texture" value=""/>
+    <set name="type" value="Npc"/>
+    <ai_params>
+      <set name="noChatWindow" value="true"/>
+      <set name="noRandomWalk" value="true"/>
+      <set name="noRandomAnimation" value="true"/>
+    </ai_params>
+    <skills>
+      <skill id="4416" level="19"/>
+      <!--Others-->
+    </skills>
+    <attributes>
+      <defence attribute="fire" value="0"/>
+      <defence attribute="water" value="0"/>
+      <defence attribute="wind" value="0"/>
+      <defence attribute="earth" value="0"/>
+      <defence attribute="holy" value="0"/>
+      <defence attribute="unholy" value="0"/>
+    </attributes>
+  </npc>
+  <npc id="19594" name="Ward" title="">
+    <set name="aggroRange" value="0"/>
+    <set name="ai_type" value="CharacterAI"/>
+    <set name="baseAtkRange" value="40"/>
+    <set name="baseCON" value="43"/>
+    <set name="baseCritRate" value="40"/>
+    <set name="baseDEX" value="30"/>
+    <set name="baseHpMax" value="2974.357"/>
+    <set name="baseHpRate" value="10"/>
+    <set name="baseHpReg" value="8.5"/>
+    <set name="baseINT" value="21"/>
+    <set name="baseMAtk" value="1113"/>
+    <set name="baseMAtkSpd" value="333"/>
+    <set name="baseMDef" value="451"/>
+    <set name="baseMEN" value="20"/>
+    <set name="baseMpMax" value="1607.4"/>
+    <set name="baseMpReg" value="3"/>
+    <set name="basePAtk" value="1770"/>
+    <set name="basePAtkSpd" value="253"/>
+    <set name="basePDef" value="556"/>
+    <set name="baseRunSpd" value="120"/>
+    <set name="baseSTR" value="40"/>
+    <set name="baseShldDef" value="0"/>
+    <set name="baseShldRate" value="0"/>
+    <set name="baseWIT" value="20"/>
+    <set name="baseWalkSpd" value="50"/>
+    <set name="collision_height" value="15.0"/>
+    <set name="collision_radius" value="120.0"/>
+    <set name="level" value="78"/>
+    <set name="rewardExp" value="0"/>
+    <set name="rewardRp" value="0"/>
+    <set name="rewardSp" value="0"/>
+    <set name="shots" value="NONE"/>
+    <set name="texture" value=""/>
+    <set name="type" value="Npc"/>
+    <ai_params>
+      <set name="noChatWindow" value="true"/>
+      <set name="noRandomWalk" value="true"/>
+      <set name="noRandomAnimation" value="true"/>
+    </ai_params>
+    <skills>
+      <skill id="4416" level="19"/>
+      <!--Others-->
+    </skills>
+    <attributes>
+      <defence attribute="fire" value="0"/>
+      <defence attribute="water" value="0"/>
+      <defence attribute="wind" value="0"/>
+      <defence attribute="earth" value="0"/>
+      <defence attribute="holy" value="0"/>
+      <defence attribute="unholy" value="0"/>
+    </attributes>
+  </npc>
+  <npc id="19696" name="Red Ward" title="">
+    <set name="aggroRange" value="0"/>
+    <set name="ai_type" value="CharacterAI"/>
+    <set name="baseAtkRange" value="40"/>
+    <set name="baseCON" value="43"/>
+    <set name="baseCritRate" value="40"/>
+    <set name="baseDEX" value="30"/>
+    <set name="baseHpMax" value="2974.357"/>
+    <set name="baseHpRate" value="10"/>
+    <set name="baseHpReg" value="8.5"/>
+    <set name="baseINT" value="21"/>
+    <set name="baseMAtk" value="1113"/>
+    <set name="baseMAtkSpd" value="333"/>
+    <set name="baseMDef" value="451"/>
+    <set name="baseMEN" value="20"/>
+    <set name="baseMpMax" value="1607.4"/>
+    <set name="baseMpReg" value="3"/>
+    <set name="basePAtk" value="1770"/>
+    <set name="basePAtkSpd" value="253"/>
+    <set name="basePDef" value="556"/>
+    <set name="baseRunSpd" value="120"/>
+    <set name="baseSTR" value="40"/>
+    <set name="baseShldDef" value="0"/>
+    <set name="baseShldRate" value="0"/>
+    <set name="baseWIT" value="20"/>
+    <set name="baseWalkSpd" value="50"/>
+    <set name="collision_height" value="15.0"/>
+    <set name="collision_radius" value="120.0"/>
+    <set name="level" value="78"/>
+    <set name="rewardExp" value="0"/>
+    <set name="rewardRp" value="0"/>
+    <set name="rewardSp" value="0"/>
+    <set name="shots" value="NONE"/>
+    <set name="texture" value=""/>
+    <set name="type" value="Npc"/>
+    <ai_params>
+      <set name="noRandomWalk" value="true"/>
+      <set name="noRandomAnimation" value="true"/>
+    </ai_params>
+    <skills>
+      <skill id="4416" level="19"/>
+      <!--Others-->
+    </skills>
+    <attributes>
+      <defence attribute="fire" value="0"/>
+      <defence attribute="water" value="0"/>
+      <defence attribute="wind" value="0"/>
+      <defence attribute="earth" value="0"/>
+      <defence attribute="holy" value="0"/>
+      <defence attribute="unholy" value="0"/>
+    </attributes>
+  </npc>
+  <npc id="19697" name="Ward" title="">
+    <set name="aggroRange" value="0"/>
+    <set name="ai_type" value="CharacterAI"/>
+    <set name="baseAtkRange" value="40"/>
+    <set name="baseCON" value="43"/>
+    <set name="baseCritRate" value="40"/>
+    <set name="baseDEX" value="30"/>
+    <set name="baseHpMax" value="2974.357"/>
+    <set name="baseHpRate" value="10"/>
+    <set name="baseHpReg" value="8.5"/>
+    <set name="baseINT" value="21"/>
+    <set name="baseMAtk" value="1113"/>
+    <set name="baseMAtkSpd" value="333"/>
+    <set name="baseMDef" value="451"/>
+    <set name="baseMEN" value="20"/>
+    <set name="baseMpMax" value="1607.4"/>
+    <set name="baseMpReg" value="3"/>
+    <set name="basePAtk" value="1770"/>
+    <set name="basePAtkSpd" value="253"/>
+    <set name="basePDef" value="556"/>
+    <set name="baseRunSpd" value="120"/>
+    <set name="baseSTR" value="40"/>
+    <set name="baseShldDef" value="0"/>
+    <set name="baseShldRate" value="0"/>
+    <set name="baseWIT" value="20"/>
+    <set name="baseWalkSpd" value="50"/>
+    <set name="collision_height" value="15.0"/>
+    <set name="collision_radius" value="120.0"/>
+    <set name="level" value="78"/>
+    <set name="rewardExp" value="0"/>
+    <set name="rewardRp" value="0"/>
+    <set name="rewardSp" value="0"/>
+    <set name="shots" value="NONE"/>
+    <set name="texture" value=""/>
+    <set name="type" value="Npc"/>
+    <ai_params>
+      <set name="noChatWindow" value="true"/>
+      <set name="noRandomWalk" value="true"/>
+      <set name="noRandomAnimation" value="true"/>
+    </ai_params>
+    <skills>
+      <skill id="4416" level="19"/>
+      <!--Others-->
+    </skills>
+    <attributes>
+      <defence attribute="fire" value="0"/>
+      <defence attribute="water" value="0"/>
+      <defence attribute="wind" value="0"/>
+      <defence attribute="earth" value="0"/>
+      <defence attribute="holy" value="0"/>
+      <defence attribute="unholy" value="0"/>
+    </attributes>
+  </npc>
+  <npc id="19698" name="Blue Ward" title="">
+    <set name="aggroRange" value="0"/>
+    <set name="ai_type" value="CharacterAI"/>
+    <set name="baseAtkRange" value="40"/>
+    <set name="baseCON" value="43"/>
+    <set name="baseCritRate" value="40"/>
+    <set name="baseDEX" value="30"/>
+    <set name="baseHpMax" value="2974.357"/>
+    <set name="baseHpRate" value="10"/>
+    <set name="baseHpReg" value="8.5"/>
+    <set name="baseINT" value="21"/>
+    <set name="baseMAtk" value="1113"/>
+    <set name="baseMAtkSpd" value="333"/>
+    <set name="baseMDef" value="451"/>
+    <set name="baseMEN" value="20"/>
+    <set name="baseMpMax" value="1607.4"/>
+    <set name="baseMpReg" value="3"/>
+    <set name="basePAtk" value="1770"/>
+    <set name="basePAtkSpd" value="253"/>
+    <set name="basePDef" value="556"/>
+    <set name="baseRunSpd" value="120"/>
+    <set name="baseSTR" value="40"/>
+    <set name="baseShldDef" value="0"/>
+    <set name="baseShldRate" value="0"/>
+    <set name="baseWIT" value="20"/>
+    <set name="baseWalkSpd" value="50"/>
+    <set name="collision_height" value="15.0"/>
+    <set name="collision_radius" value="120.0"/>
+    <set name="level" value="78"/>
+    <set name="rewardExp" value="0"/>
+    <set name="rewardRp" value="0"/>
+    <set name="rewardSp" value="0"/>
+    <set name="shots" value="NONE"/>
+    <set name="texture" value=""/>
+    <set name="type" value="Npc"/>
+    <ai_params>
+      <set name="noRandomWalk" value="true"/>
+      <set name="noRandomAnimation" value="true"/>
+    </ai_params>
+    <skills>
+      <skill id="4416" level="19"/>
+      <!--Others-->
+    </skills>
+    <attributes>
+      <defence attribute="fire" value="0"/>
+      <defence attribute="water" value="0"/>
+      <defence attribute="wind" value="0"/>
+      <defence attribute="earth" value="0"/>
+      <defence attribute="holy" value="0"/>
+      <defence attribute="unholy" value="0"/>
+    </attributes>
+  </npc>
+  <npc id="19699" name="Ward" title="">
+    <set name="aggroRange" value="0"/>
+    <set name="ai_type" value="CharacterAI"/>
+    <set name="baseAtkRange" value="40"/>
+    <set name="baseCON" value="43"/>
+    <set name="baseCritRate" value="40"/>
+    <set name="baseDEX" value="30"/>
+    <set name="baseHpMax" value="2974.357"/>
+    <set name="baseHpRate" value="10"/>
+    <set name="baseHpReg" value="8.5"/>
+    <set name="baseINT" value="21"/>
+    <set name="baseMAtk" value="1113"/>
+    <set name="baseMAtkSpd" value="333"/>
+    <set name="baseMDef" value="451"/>
+    <set name="baseMEN" value="20"/>
+    <set name="baseMpMax" value="1607.4"/>
+    <set name="baseMpReg" value="3"/>
+    <set name="basePAtk" value="1770"/>
+    <set name="basePAtkSpd" value="253"/>
+    <set name="basePDef" value="556"/>
+    <set name="baseRunSpd" value="120"/>
+    <set name="baseSTR" value="40"/>
+    <set name="baseShldDef" value="0"/>
+    <set name="baseShldRate" value="0"/>
+    <set name="baseWIT" value="20"/>
+    <set name="baseWalkSpd" value="50"/>
+    <set name="collision_height" value="15.0"/>
+    <set name="collision_radius" value="120.0"/>
+    <set name="level" value="78"/>
+    <set name="rewardExp" value="0"/>
+    <set name="rewardRp" value="0"/>
+    <set name="rewardSp" value="0"/>
+    <set name="shots" value="NONE"/>
+    <set name="texture" value=""/>
+    <set name="type" value="Npc"/>
+    <ai_params>
+      <set name="noChatWindow" value="true"/>
+      <set name="noRandomWalk" value="true"/>
+      <set name="noRandomAnimation" value="true"/>
+    </ai_params>
+    <skills>
+      <skill id="4416" level="19"/>
+      <!--Others-->
+    </skills>
+    <attributes>
+      <defence attribute="fire" value="0"/>
+      <defence attribute="water" value="0"/>
+      <defence attribute="wind" value="0"/>
+      <defence attribute="earth" value="0"/>
+      <defence attribute="holy" value="0"/>
+      <defence attribute="unholy" value="0"/>
+    </attributes>
+  </npc>
+</list>
